@@ -1,0 +1,117 @@
+body{                   /* тут на загальну сторінку пише відступи ззовні, загальний шрифт сайту та колір тексту, фону*/
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    background-color: #eee0cb;
+    color: #6b4f4f;
+}
+
+header{                         /*Шапка сайту, де задаєм колір фону, рамки, відступи і додаєм флекс*/
+    background-color: #094031;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #051E17;
+}
+
+.nav-list{            /*це загальні властивості для кнопок шапки: відступи і флексбокс*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link{          /*стилізуємо самі кнопки тут*/
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title{                /*стилізуємо заголовок, що у шапці сайту*/
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero{              /*блок, де у нас є фонова картинка. Додаєм картинку на фон і стилізуємо її висоту, також аби текст*/
+    height: 300px;  /*всередині був гарно посерединці*/
+    color: white;
+    background-image: url('cafe.avif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-h{           /*окремо стилізуємо заголовок, що на картинці*/
+    font-size: 40px;
+    text-shadow: 3px 3px 5px black;
+    margin-bottom: 0;
+}
+
+.hero-p{           /*окремо стилізуємо абзац, що на картинці (якщо ти додавав його)*/
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px black;
+}
+
+main{                   /*додаємо відступи і флексбокс, аби картинка і текст були в рядок блоково*/
+    padding: 40px 20px; /*також деякі параметри, аби в браузері сайт виглядав коректно*/
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.card{             /*стилізуємо картку з текстом*/
+display: flex;
+flex-direction: column;
+background-color: antiquewhite;
+border-radius: 12px;
+width: 500px;
+justify-content: center;
+align-items: flex-start;
+font-size: 18px;
+padding: 40px;
+margin-right: 40px;
+}
+
+.card h2 {             /*редагуємо відступи для тексту в картці*/
+    margin-top: 0;
+}
+
+.card p {                     /*редагуємо відступи для тексту в картці*/
+    margin: 15px 0 25px;
+}
+
+.btn{                        /*стилізуємо кнопку в картці*/
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #6b4f4f;
+    color: white;
+}
+
+.main-img{          /*стилізуємо картинку в картці*/
+    width: 50%;
+    max-width: 400px;
+    border-radius: 12px;
+}
+
+footer{                       /*стилізуємо підвал сайту*/
+    background-color: #094031;
+    padding: 20px;
+    text-align: center;
+    border-top: 4px solid #051E17;
+    margin-top: 40px;
+    color: white;
+}
