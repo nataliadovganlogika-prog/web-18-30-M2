@@ -1,0 +1,111 @@
+body{
+ margin: 0;
+ font-family: Verdana, Sans-Serif;
+  background-color: #0F3157;
+  color: #FF7033;
+}
+header{
+    background-color: #FF3333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     border-bottom: 4px solid #FF3333;
+}
+.title img{
+    height: 50px;
+}
+.nav-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.nav-link:hover{
+    color: black;
+}
+.title{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.hero{
+    height: 300px;
+    color: white;
+    background-image: url('burger-king.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-h{
+    font-size: 40px;
+    text-shadow: 3px 3px 5px black;
+    margin-bottom: 0;
+}
+.hero-p{
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px black;
+}
+main{
+    padding: 20px 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    width: 500px;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 18px;
+    padding: 40px;
+    margin-right: 40px;
+}
+.card h2 {
+    margin-top: 0;
+}
+.card p {
+    margin: 15px 20px;
+}
+.btn{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: red;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.main-img{
+    width: 50%;
+    max-width: 400px;
+    border-radius: 12px;
+}
+footer{
+    background-color: #FF3333;
+    padding: 20px;
+    text-align: center;
+    border-top: 4px solid #0F3157;
+    margin-top: 40px;
+    color: white;
+}
