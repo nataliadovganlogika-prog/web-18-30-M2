@@ -1,0 +1,118 @@
+body{
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  background-color: #fccfa2;
+  color: #915d31;
+}
+
+header{
+    background-color: #ffb545;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #fc8e3f;
+}
+
+.nav-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #ff6a00;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title{
+    color: #ff6a00;
+    font-size: 40px;
+    font-weight: bold;
+}
+    
+.hero{
+    height: 300px;
+    color: #ff6a00;
+    background-image: url('slider2_937b990d-32db-48bb-b0f5-140dfee75c79.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-h{
+    font-size: 40px;
+    text-shadow: 3px 3px 5px #ff6a00;
+    margin-bottom: 0;
+}
+
+.hero-p{
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #ff6a00;
+}
+
+main{
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #ff6a00;
+    border-radius: 12px;
+    width: 500px;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 18px;
+    padding: 40px;
+    margin-right: 40px;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card p {
+    margin: 15px 0 25px;
+}
+
+.btn{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #ffcb87;
+    color: #ff6a00;
+    transition: all 0.3s;
+}
+
+.main-img{
+    width: 50%;
+    max-width: 400px;
+    border-radius: 12px;
+}
+
+footer{
+    background-color: #ff9100;
+    padding: 20px;
+    text-align: center;
+    border-top: 4px solid #ff6a00;
+    margin-top: 40px;
+    color: #ffd399;
+}
