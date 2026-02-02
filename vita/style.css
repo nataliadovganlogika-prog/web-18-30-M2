@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    font-family: Verdana,Sans-Serif;
+    background-color:#BFA186;
+    color: #5B3A2E;
+}
+header{
+    background-color:#8C6FB1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #556233;
+}
+.nav-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.title{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.hero{
+    height: 300px;
+    color:  #5B3A2E;
+    background-image: url('premium_photo-1664970900025-1e3099ca757a.avif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-h{
+    font-size:40px;
+    text-shadow: 3px 3px 5px yellow;
+    margin-bottom: 0;
+}
+.hero-p{
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px violet;
+}
+main{
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    width: 500px;
+    justify-content: center;
+    align-items:flex-start;
+    font-size: 18px;
+    padding: 40px;
+    margin-right: 40px; 
+}
+.card h2 {
+    margin-top:0;
+}
+.card p {
+    margin: 15px 0 25px;
+}
+.btn{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #6b4f4f;
+    color: white;
+    transition: all 0.3s;
+}
+.btn:hover{
+ background-color: #402906;   
+}    
+.nav-link:hover{
+    font-size: 30px;
+}   
+
+.main-img{
+    width: 50%;
+    max-width: 400px;
+    border-radius: 12px;
+}
+footer{
+    background-color: #8C6FB1;
+    padding: 20px;
+    text-align: center;
+    border-top: 4px solid #273F2F;
+    margin-top: 40px;
+    color:white;
+}
+
+
+
+    
+
+
+    
+    
+    
+
+
+
+
+
+  
+  
+  
+
