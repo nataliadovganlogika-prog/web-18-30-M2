@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    background-color: #2A1313;
+    color: #2A1313;
+}
+
+header{
+    background-color: #ab8213;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #2dc722;
+}
+.nav-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #2A1313;
+    font-size: 20px;
+    font-weight: bold;
+}
+.title{
+    color: #c1c91c;
+    font-size: 40px;
+    font-weight: bold;
+}
+.hero{
+    height: 300px;
+    color: #c46608;
+    background-image: url('depositphotos_13424921-stock-photo-green-apples.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-h{
+    font-size: 40px;
+    text-shadow: 3px 3px 5px #0d0103;
+    margin-bottom: 0;
+}
+.hero-p{
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #0d0103;
+}
+main{
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f0f1;
+    border-radius: 12px;
+    width: 500px;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 18px;
+    padding: 40px;
+    margin-right: 40px;
+}
+.card h2{
+    margin-top: 0;
+}
+.card p{
+    margin: 15px 0 25px;
+}
+.btn{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #b80920;
+    color: #fcfcfc;
+    transition: all 0.3s;
+}
+.main-img{
+    width: 50%;
+    max-width: 400px;
+    border-radius: 12px;
+}
+footer{
+    background-color: #753a09;
+    padding: 20px;
+    text-align: center;
+    border-top: 4px solid #2dc722;
+    color: #E6C7C7;
+}
